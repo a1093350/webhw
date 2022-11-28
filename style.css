@@ -1,0 +1,280 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.white{
+    top: 0px;
+    left: 0px;
+    width: 1560px;
+    height: 1300px;
+    padding-left: 360px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+.name{
+    padding-top: 40px;
+    width: 274px;
+    height: 190px; 
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 80px/95px SF Pro Text;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.line{
+    margin-top: 24px;
+    /* padding-left: 360px; */
+    width: 1200px;
+    height: 0px;
+    border-top: 2px solid #000000;
+    opacity: 1;
+}
+.line2{
+    margin-top: 24px;
+    /* padding-left: 360px; */
+    width: 1200px;
+    height: 0px;
+    border-top: 1px solid #000000;
+    opacity: 1;
+}
+.photo{
+    margin-top: 48px;
+    width:324px;
+    height: 324px;
+    display: block;
+}
+.title{
+    
+    margin-top: 64px;
+    width: 1200px;
+    height: 48px;
+    text-align: left;
+    font: normal normal bold 32px/48px PingFang TC;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    display:inline-block;
+}
+span{
+    margin-top: 54px;
+    margin-left: 16px;
+    
+    text-align: left;
+    font: normal normal 600 24px/36px SF Pro Text;
+    letter-spacing: 0px;
+    color: #A00404;
+    opacity: 1;
+    
+}
+p{
+    top: 746px;
+    left: 360px;
+    width: 1200px;
+    height: 240px;
+    text-align: left;
+    font: normal normal 300 24px/36px PingFang TC;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    display: block;
+}
+/* br{
+    content: "";
+    display: block;
+    margin-bottom: 12px;
+    font-size:2px;
+    line-height: 12px;
+    
+} */
+.blue{
+    top: 1274px;
+    left: 0px;
+    width: 1920px;
+    height: 460px;
+    background: #415165 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.spe{
+    content: "";
+    display: block;
+    margin-bottom: 16px;
+    font-size:2px;
+    line-height: 6px;
+}
+.wtit1{
+    top: 1298px;
+    padding-left: 882px;
+    width: 600px;
+    height: 48px;
+    text-align: left;
+    font: normal normal 600 32px/48px PingFang TC;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.wetit{
+    text-align: left;
+    font: normal normal 600 24px/36px SF Pro Text;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.wline{
+    margin-top: 24px;
+    margin-left: 462px;
+    width: 996px;
+    height: 0px;
+    border-top: 1px solid #FFFFFF;
+    opacity: 1;
+}
+.wbox{
+    margin-top: 48px;
+    margin-left: 846px;
+    width: 300px;
+    height: 260px;
+    text-align:left;
+    font: normal normal 300 24px/36px SF Pro Text;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    border-left: 1px solid #FFFFFF;
+}
+.white2{
+    top: 0px;
+    left: 0px;
+    width: 1560px;
+    height: 860px;
+    padding-left: 360px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+.work{
+    text-align: left;
+    margin-top: 10px;
+    width: 672px;
+    height: 628px;
+    margin-left: 24px;
+    border-left: 1px solid #96A9C4;
+    opacity: 1;
+}
+a{
+    font: normal normal 600 24px/36px PingFang TC;
+    color:#000000
+
+}
+a:hover{
+    color: #A00404;
+}
+.simtree{
+    margin-left: 18px;
+    width:100px;
+    height: 100px;
+    display: block;
+}
+.hexschool{
+    width:100px;
+    height: 100px;
+    display: block;
+}
+.workdes{
+    margin-left: 24px;
+    width: 642px;
+    height: 150px;
+    font: normal normal 300 20px/30px PingFang TC;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.blue2{
+    
+    top: 1274px;
+    left: 0px;
+    width: 1920px;
+    height: 432px;
+    background: #415165 0% 0% no-repeat padding-box;
+    opacity: 1;
+    
+}
+.wtit2{
+    
+    padding-left: 782px;
+    width: 600px;
+    height: 48px;
+    text-align: left;
+    font: normal normal 600 32px/48px PingFang TC;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.wbox2{
+    margin-top: 36px;
+    margin-left: 696px;
+    width: 530px;
+    height: 260px;
+    text-align:center;
+    font: normal normal 300 24px/36px SF Pro Text;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    
+}
+.awhite{
+    font: normal normal 300 24px/36px PingFang TC;
+    color: #FFFFFF;
+}
+.fb{
+    margin-right: 24px;
+}
+.lin{
+    margin-left: 24px;
+}
